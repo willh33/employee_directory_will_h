@@ -140,6 +140,8 @@ function EmployeeTable(props) {
 									<tr key={row.id}>
 										<td><img src={row.profilePic} /></td>
 										<td>{row.name}</td>
+										<td>{row.phone}</td>
+										<td>{row.email}</td>
 										<td>{moment(row.birthday).format("MM/DD/YYYY")}</td>
 										<td>{row.gender}</td>
 									</tr>
